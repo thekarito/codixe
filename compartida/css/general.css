@@ -1,0 +1,218 @@
+@font-face {
+    font-family: co-Black;
+    src:url(fonts/Gotham-Black.otf) format('truetype');
+}
+@font-face {
+    font-family: co-Bold;
+    src:url(fonts/Gotham-Bold.otf) format('truetype');
+}
+@font-face {
+    font-family: co-Book;
+    src:url(fonts/Gotham-Book.otf) format('truetype');
+}
+@font-face {
+    font-family: co-Light;
+    src:url(fonts/Gotham-Light.otf) format('truetype');
+}
+@font-face {
+    font-family: co-Medium;
+    src:url(fonts/Gotham-Medium.otf) format('truetype');
+}
+@font-face {
+    font-family: co-Ultra;
+    src:url(fonts/Gotham-Ultra.otf) format('truetype');
+}
+a{ color: #ffffff;}
+a:visited{ color: #ffffff;}
+a:hover{ color: #ffffff;}
+.transparent{color:transparent;}
+.contenido_pag{
+    padding: 0 40px 0 40px;
+}
+/********************************MENU PRINCIPAL**************************************/
+.move_logmenu{position: relative;  left:-5px; z-index:3000;}
+.li_menu{background: transparent !important;}
+.contain-to-grid,.top-bar{
+    background: #ffffff !important;
+    color: #777673 !important;
+}
+.name{
+    background: #ffffff !important;
+    color: #777673 !important;
+}
+.top-bar .toggle-topbar.menu-icon a{
+    text-transform: uppercase;
+    color: #777673 !important;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #ffffff !important;
+    text-transform: uppercase;
+    color: #777673 !important;
+}
+.li_menu span{
+    font-family: co-trial, sans-serif !important;
+    text-transform: uppercase;
+    color: #939597;
+    font-weight: bold;
+    font-size: 11px !important;
+    position: relative;
+    left: 14px;
+}
+#li_home{  border-bottom: 6px solid #4D585A; padding: 0 10px 0 10px; }
+#li_emp{  border-bottom: 6px solid #0082CB;  padding: 0 10px 0 10px;}
+#li_produc{  border-bottom: 6px solid #DD2198;  padding: 0 10px 0 10px;}
+#li_port{  border-bottom: 6px solid #FDDA00;  padding: 0 10px 0 10px;}
+#li_contacto{  border-bottom: 6px solid #3C4542;  padding: 0 10px 0 10px;}
+.iconFavep{ width:200px; position:relative; z-index: 5000;}
+.li_menu span:hover{
+    color:#595959 !important;
+    opacity: 0.7;
+    fill-opacity: 0.7;
+    -moz-opacity: 0.7;
+}
+.visitado_1{  color:#4D585A !important;  }
+.visitado_2{  color:#0082CB !important;  }
+.visitado_3{  color:#DD2198 !important;  }
+.visitado_4{  color:#FDDA00 !important;  }
+.visitado_5{  color:#3C4542 !important;  }
+
+/************************************CONTENIDO INDEX***************************************/
+.titul_producto_banner{ font-family: co-Bold, sans-serif; font-size: 28px; color: #ffffff; font-weight: normal;}
+.textb{ font-weight: normal; font-size: 26px !important;}
+.background_index{ height: 375px; width: 100%;}
+.orbit-container img{ width: 100% !important;}
+.orbit-caption{padding: 25px !important;}
+.orbit-slide-number{ display: none !important;}
+.orbit-timer{display: none !important;}
+.orbit-progress{display: none !important;}
+.orbit-bullets-container{display: none !important;}
+.divTitul_index{ color: #ffffff !important; height: 375px; background: #000000; opacity: 0.9;  fill-opacity: 0.9;  -moz-opacity: 0.9; position: relative; left: -15px;}
+.divTitul_index p{margin-top: 275px !important;  margin-left: 10px; color:#ffffff !important; line-height: 30px;}
+.titul_filosof{text-align: justify; font-family: co-Bold, sans-serif; font-size: 30px; color:#4D585A; line-height: 40px;}
+.conten_filosof p{font-family: co-Light, sans-serif; font-size: 13px; color:#4D585A;}
+.conten_filosof{ margin-top: -10px;}
+.icon_index{ margin-right: 10px; margin-top: 30px;}
+.instalacion_list{background: #4D585A; padding: 20px; height: 490px; }
+.instalacion_list p{font-family: co-Bold,sans-serif; font-size: 20px; color: #ffffff; padding-top: 20px;}
+.instalacion_list img{width: 400px; padding-bottom:10px; height: 150px;}
+.enlace_index{padding-bottom: 20px; text-align: right; font-size: 12px; color:#ffffff; font-family: co-Reg,sans-serif; font-weight: normal !important;}
+.enlace_index a{background:#3C4542; padding-left: 5px; font-size: 12px !important; font-weight: bold; }
+.enlace_index a:hover{ opacity: 0.7;  fill-opacity: 0.7;  -moz-opacity: 0.7;  -webkit-transition: all 0.3s ease-out;  -moz-transition: all 0.3s ease-out;  -ms-transition: all 0.3s ease-out;  -o-transition: all 0.3s ease-out;  transition: all 0.3s ease-out;}
+.icon_index:hover{
+    opacity: 0.7;  fill-opacity: 0.7;  -moz-opacity: 0.7;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;}
+/*INDEX VERSION ANDROID*/
+.li_product_index{height: 300px; width: 100%;}
+.titul_producto_banner-2{font-family: co-Bold,sans-serif; font-size: 20px; margin-top:190px; color:#ffffff; line-height: 2px;}
+.titul_filosof_2{font-family: co-Bold, sans-serif; font-size: 32px; color:#4D585A; line-height: 40px;}
+.conten_filosof_2{font-family: co-Light, sans-serif; font-size: 14px; color:#4D585A;}
+.bloque_logos{ padding-top:30px;}
+.icon_index_2{ margin-right: 10px; margin-top: 0px;}
+.orbit-next, .orbit-prev{ display: none !important;}
+/***********************************CONTENIDO EMPRESA*****************************************/
+.titul_empresa{background: #0082CB; }
+.titul_empresa span{font-family: co-Bold,sans-serif; font-size: 32px !important;  color:#ffffff; }
+.div_empresa img{width: 100%; }
+.sub_titul p{margin-top:-4px; font-weight:normal;font-family: co-Bold,sans-serif; color:#4D585A; font-size: 15px; line-height: 18px;}
+.conten_empresa strong{font-weight:normal;font-family: co-Bold,sans-serif; color:#4D585A; font-size: 15px;}
+.conten_empresa p{font-family: co-Light,sans-serif; color:#4D585A; font-size: 14px; text-align: justify; margin-bottom: 5px;}
+.imagEmpresa img{width: 100%; height: 360px;}
+.div_empresa_m{ padding-bottom: 10px;}
+.div_empresa_m p{margin-bottom: 7px; }
+.div_empresa_v p{margin-bottom: 7px;}
+/**********************************CONTENIDO PRODUCTOS****************************************/
+.titul_productos{background: #DD2198; }
+.titul_productos span{font-family: co-Bold,sans-serif; font-size: 32px !important;  color:#ffffff;}
+.conten_productos p{font-family: co-Light,sans-serif; color:#4D585A; font-size: 14px; text-align: justify; padding-bottom: 16px;}
+.conten_productos strong{font-family: co-Bold,sans-serif; font-weight: normal !important; margin-right: 10px;}
+.padding_img{padding-bottom: 20px;}
+.imagProd img{width: 100%; height: 320px !important; }
+.imagProductos img{width: 100%; height: 250px !important; }
+.eqAzul{color: #0082CB !important;}
+.eqRosa{color: #DD2198 !important;}
+.eqMosta{color: #FDDA00 !important;}
+.eqPlomo{color: #3C4542 !important;}
+.space-bottom{ padding-bottom: 14px;}
+/*********************************CONTENIDO PORTAFOLIO***************************************/
+.titul_portafolio{background: #FDDA00;}
+.titul_portafolio span{font-family: co-Bold,sans-serif; font-size: 32px !important;  color:#ffffff; }
+.portalist p{margin:8px 4px 0 0;}
+.titul_porta{font-family: co-Bold,sans-serif; font-size: 14px !important; color:#4D585A;}
+.subtitul_porta{font-family: co-Light,sans-serif; font-size: 14px !important; color:#4D585A;}
+.imglistPortafolio{ width: 100%; height: 160px; margin-bottom: 15px; margin-top: 20px;}
+.zoom_porta{  transition: 0.5s ease;  -moz-transition:  0.5s ease;-webkit-transition:  0.5s ease; -o-transition:  0.5s ease;}
+.zoom_porta:hover{  transform : scale(1.1);  -moz-transform : scale(1.1);  -webkit-transform : scale(1.2); -o-transform : scale(1.2); -ms-transform : scale(1.2);}
+
+/************************************CONTENIDO CONTACTANOS********************************/
+.titul_contacto{background: #3C4542;}
+.titul_contacto span{font-family: co-Bold,sans-serif; font-size: 32px !important;  color:#ffffff; }
+.divForm{border-top:11px solid #3C4542; background: #C4C7C6;}
+.divBottom{background: #3C4542; padding: 5px;}
+.text-form{font-family:  co-Bold, sans-serif !important; font-size:16px; color:#ffffff !important; padding-top: 5px;}
+input, textarea{
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    margin: 0 !important;
+}
+::-webkit-input-placeholder {text-transform: uppercase; font-family:  co-Light, sans-serif !important; font-size:16px; color:#595959 !important;}
+:-moz-placeholder {text-transform: uppercase; font-family:  co-Light, sans-serif !important; font-size:16px; color:#595959 !important;}
+::-moz-placeholder {text-transform: uppercase; font-family:  co-Light, sans-serif !important; font-size:16px; color:#595959 !important;}
+:-ms-input-placeholder {text-transform: uppercase; font-family:  co-Light, sans-serif !important; font-size:16px; color:#595959 !important;}
+.bottom{text-align: right;}
+.text-adjunta{ font-family: co-Bold,Sans-Serif; font-size: 14px; color:#ffffff;}
+.bottomCargar{background: #ffffff !important; text-align: right !important; font-family: co-Bold, sans-serif;
+    color:#3C4542 !important; font-size: 14px !important;padding: 5px 20px 5px 20px  !important; margin:5px !important;
+}
+.bottomSend{background: #3C4542 !important; text-align: right !important; font-family: co-Bold, sans-serif;
+    color:#ffffff !important; font-size: 14px !important;padding: 5px 22px 5px 22px  !important; margin:5px 5px 0 0px !important; position: relative; left: -5px;
+}
+.bottomSend:hover{
+    opacity: 0.9;
+    fill-opacity: 0.9;
+    -moz-opacity: 0.9;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.text_a_contact{font-family: co-Bold,sans-serif; font-size: 14px; color: #3C4542; padding: 10px 0 10px 0;}
+.divGraciasContact{ font-family: co-Bold,sans-serif; font-size: 28px; color: #3C4542; line-height: 18px;}
+.divGraciasContact2{ font-family: co-Light,sans-serif; font-size: 14px; color: #3C4542; position: relative; top:-4px;}
+.fondoMapa{background:#6D7371; height: 260px;}
+.fondoMapa2{background: #3C4542; color:#ffffff; font-family: co-Bold,Sans-Serif; font-size: 16px; padding: 10px;}
+.text_direct p{ font-family: co-Light,sans-serif; font-size: 14px !important; color: #3C4542; padding: 0; position: relative; left: -25px;}
+
+/**************************************PIE DE PAGINA******************************************/
+.move_iconpie{ margin-right: 10px;}
+.copyright p{
+    font-family: co-Light, sans-serif;
+    color:#595959;
+    font-size: 12px;
+    margin-bottom:13px;
+}
+.movecop2{
+    position: relative;
+    top: -14px;
+}
+.iconPie:hover{
+    opacity: 0.7;
+    fill-opacity: 0.7;
+    -moz-opacity: 0.7;
+}
+#mov_iconpie{padding-right: 20px;}
+.icon_hover:hover{
+    opacity: 0.7;
+    fill-opacity: 0.7;
+    -moz-opacity: 0.7;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
