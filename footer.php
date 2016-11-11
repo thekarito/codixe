@@ -10,12 +10,8 @@
 <script src="compartida/js/hoverdir.js"></script>
 <script src="compartida/js/modernizr.js"></script>
 <script src="compartida/js/jquery.magnific-popup.min.js"></script>
-<script src="compartida/js/app.js" async defer></script>
-<script src="compartida/js/jQuery.succinct.js"></script>
 <script type="text/javascript">
     $(document).foundation();
-    $(document).foundation('magellan-expedition', 'reflow');
-    $(document).foundation('orbit', 'reflow');
 </script>
 </body>
 </html>
