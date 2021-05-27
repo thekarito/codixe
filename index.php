@@ -1,5 +1,5 @@
 <?php include_once("header.php"); ?>
-<!---------HOME----------->
+<!---------HOME: necesita appServer----------->
 <div id="blockHome">
     <div class="row hide-for-small-only">
         <div class="small-12 columns">
